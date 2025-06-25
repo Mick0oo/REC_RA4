@@ -23,12 +23,15 @@ Dataset 3:
 
 O melhor algoritmo no geral é o Radix. Ele teve bom desempenho em todos os casos, 
 
+
+
+
 # Gráfico de barras
-![Image](https://github.com/user-attachments/assets/a3530f89-b017-452a-8ee3-ce56362e48ac)
+
+![Image](https://github.com/user-attachments/assets/86b29b65-54aa-4968-914f-b7df011eab7a)
 
 # Gráficos de linhas
-![Image](https://github.com/user-attachments/assets/2e06855f-c444-4764-946b-5488e3672d56)
 
-![Image](https://github.com/user-attachments/assets/2100209f-b646-434b-b1a5-94caea51fa9a)
-
-![Image](https://github.com/user-attachments/assets/b6970e4c-268c-4d4b-a245-649f320fc7c3)
+![Image](https://github.com/user-attachments/assets/7364989a-9525-4c82-8298-7391357536db)
+![Image](https://github.com/user-attachments/assets/44d4fec7-14dc-4e77-8f25-6ab42c2b2f68)
+![Image](https://github.com/user-attachments/assets/ed233626-485c-49a1-a313-a862c3d3f2e3)
