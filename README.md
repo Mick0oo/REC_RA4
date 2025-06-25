@@ -20,15 +20,15 @@ Dataset 2:
 Dataset 3: 
 - 50 elementos, invertido. Sequência de 50 a 1.
 
+O merge sort é o mais consistente em todos os datasets para as trocas e iterações.
+O quick sort tem uma quantidade média de iterações muito maior que os outros algoritmos nos datasets invertidos (2,3).
 
-O melhor algoritmo no geral é o Radix. Ele teve bom desempenho em todos os casos, 
-
-
-
+# Conclusão
+O melhor algoritmo no geral é o Radix. Ele o desempenho mais satisfatório quando comparado aos outros, para todos os datasets.
 
 # Gráfico de barras
 
-![Image](https://github.com/user-attachments/assets/86b29b65-54aa-4968-914f-b7df011eab7a)
+![Image](https://github.com/user-attachments/assets/a5501ac9-3ee0-4bca-a5d3-00c2fe822204)
 
 # Gráficos de linhas
 
