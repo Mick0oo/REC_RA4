@@ -10,20 +10,18 @@ São comparados os resultados dos três algoritmos contra três datasets de 50 e
 Essa desorganização interage diferentemente com as fraquezas e as forças de cada um dos algoritmos.
 
 Os datasets são caracterizados das seguintes formas:
-Dataset 1: 
 
-50 elementos, alternado com picos entre cada elemento (menor, maior).
+Dataset 1: 
+- 50 elementos, alternado com picos entre cada elemento (menor, maior).
 
 Dataset 2: 
-
-50 elementos, começa ordenado, tem um pico e continua invertido desde então.
+- 50 elementos, começa ordenado, tem um pico e continua invertido desde então.
 
 Dataset 3: 
-
-50 elementos, invertido. Sequência de 50 a 1.
-
+- 50 elementos, invertido. Sequência de 50 a 1.
 
 
+O melhor algoritmo no geral é o Radix. Ele teve bom desempenho em todos os casos, 
 
 # Gráfico de barras
 ![Image](https://github.com/user-attachments/assets/a3530f89-b017-452a-8ee3-ce56362e48ac)
