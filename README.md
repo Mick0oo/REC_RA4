@@ -11,12 +11,15 @@ Essa desorganização interage diferentemente com as fraquezas e as forças de c
 
 Os datasets são caracterizados das seguintes formas:
 Dataset 1: 
+
 50 elementos, alternado com picos entre cada elemento (menor, maior).
 
 Dataset 2: 
+
 50 elementos, começa ordenado, tem um pico e continua invertido desde então.
 
 Dataset 3: 
+
 50 elementos, invertido. Sequência de 50 a 1.
 
 
