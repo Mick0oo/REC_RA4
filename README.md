@@ -6,25 +6,29 @@ Algoritmos requisitados:
 - Quick Sort Não recursivo (Iterativo)
 - Merge Sort Não recursivo (iterativo, bottom-up)
 
+Os dados são tirados a partir de 100 rodadas, para todos os algoritmos.
+
 São comparados os resultados dos três algoritmos contra três datasets de 50 elementos desorganizados de formas diferentes.
 Essa desorganização interage diferentemente com as fraquezas e as forças de cada um dos algoritmos.
 
-Os datasets são caracterizados das seguintes formas:
+# Análise Dataset 1
+_Característica: 50 elementos, alternado com picos entre cada elemento (menor, maior)._
+O algoritmo com melhor desempenho foi o radix.
 
-Dataset 1: 
-- 50 elementos, alternado com picos entre cada elemento (menor, maior).
+# Análise Dataset 2
+_Característica: 50 elementos, começa ordenado, tem um pico e continua invertido desde então._
+O algoritmo com melhor desempenho foi o radix.
 
-Dataset 2: 
-- 50 elementos, começa ordenado, tem um pico e continua invertido desde então.
+# Análise Dataset 3
+_Característica: 50 elementos, invertido. Sequência de 50 a 1._
+O algoritmo com melhor desempenho foi o radix.
 
-Dataset 3: 
-- 50 elementos, invertido. Sequência de 50 a 1.
-
+# Outras anotações
 O merge sort é o mais consistente em todos os datasets para as trocas e iterações.
 O quick sort tem uma quantidade média de iterações muito maior que os outros algoritmos nos datasets invertidos (2,3).
 
 # Conclusão
-O melhor algoritmo no geral é o Radix. Ele o desempenho mais satisfatório quando comparado aos outros, para todos os datasets.
+O melhor algoritmo no geral é o Radix. Ele teve o desempenho mais satisfatório quando comparado aos outros, para todos os datasets. Isso ocorre pois os datasets são ideais para o radix. Eles são pequenos (50 elementos), e são compostos de integers positivos e não muito grandes.
 
 # Gráfico de barras
 
