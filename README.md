@@ -2,9 +2,9 @@
 # Resolução de Problemas Estruturados em Computação
 
 Algoritmos requisitados:
-- Merge Sort Não recursivo (iterativo, bottom-up)
 - Radix Sort
 - Quick Sort Não recursivo (Iterativo)
+- Merge Sort Não recursivo (iterativo, bottom-up)
 
 São comparados os resultados dos três algoritmos contra três datasets de 50 elementos desorganizados de formas diferentes.
 Essa desorganização interage diferentemente com as fraquezas e as forças de cada um dos algoritmos.
