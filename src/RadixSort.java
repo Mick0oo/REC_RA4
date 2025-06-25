@@ -90,6 +90,7 @@ public class RadixSort {
             long ini = System.nanoTime();
             ordenar(copia, tam_1);
             long fim = System.nanoTime();
+            // Ferramentas.imprimir_vet(copia);
             somaTempos1 += (fim - ini);
             somaIteracoes1 += iteracoes;
             somaTrocas1 += trocas;
@@ -112,13 +113,13 @@ public class RadixSort {
             long ini = System.nanoTime();
             ordenar(copia2, tam_2);
             long fim = System.nanoTime();
+            // Ferramentas.imprimir_vet(copia2);
             somaTempos2 += (fim - ini);
             somaIteracoes2 += iteracoes;
             somaTrocas2 += trocas;
         }
 
         double media2 = (double) somaTempos2 / (repeticoes * 1_000_000.0);
-        System.out.println("\nDataset 2 ORDENADO:");
         System.out.println("Tempo médio de execução (Dataset 2): " + media2 + " ms");
         System.out.println("Média de iterações: " + (somaIteracoes2 / repeticoes));
         System.out.println("Média de trocas: " + (somaTrocas2 / repeticoes));
@@ -136,6 +137,7 @@ public class RadixSort {
             long ini = System.nanoTime();
             ordenar(copia3, tam_3);
             long fim = System.nanoTime();
+            // Ferramentas.imprimir_vet(copia3);
             somaTempos3 += (fim - ini);
             somaIteracoes3 += iteracoes;
             somaTrocas3 += trocas;
@@ -148,4 +150,5 @@ public class RadixSort {
 
     }
 }
+
 
